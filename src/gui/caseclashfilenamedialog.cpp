@@ -89,7 +89,7 @@ CaseClashFilenameDialog::CaseClashFilenameDialog(AccountPtr account,
     _ui->buttonBox->button(QDialogButtonBox::Ok)->setEnabled(false);
     _ui->buttonBox->button(QDialogButtonBox::Ok)->setText(tr("Rename file"));
 
-    _ui->descriptionLabel->setText(tr("The file \"%1\" could not be synced because of a case clash conflict with an existing file on this system.").arg(_originalFileName));
+    _ui->descriptionLabel->setText(tr("The file \"%1\" dnsinh could not be synced because of a case clash conflict with an existing file on this system.").arg(_originalFileName));
     _ui->explanationLabel->setText(tr("%1 does not support equal file names with only letter casing differences.").arg(QSysInfo::prettyProductName()));
     _ui->filenameLineEdit->setText(conflictFileName);
 
