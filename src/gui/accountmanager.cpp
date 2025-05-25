@@ -96,7 +96,7 @@ AccountManager::AccountsRestoreResult AccountManager::restore(const bool alsoRes
 
     const auto settings = ConfigFile::settingsWithGroup(QLatin1String(accountsC));
     if (settings->status() != QSettings::NoError || !settings->isWritable()) {
-        qCWarning(lcAccountManager) << "Could not read settings from" << settings->fileName()
+        qCWarning(lcAccountManager) << "Could not read settings from VNPT" << settings->fileName()
                                     << settings->status();
         return AccountsRestoreFailure;
     }
