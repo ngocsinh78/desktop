@@ -56,7 +56,7 @@ void WelcomePage::styleSlideShow()
     const auto wizardTalkIconFileName = theme->isBranded() ? Theme::hidpiFileName("wizard-talk.png", backgroundColor)
                                                            : Theme::hidpiFileName(":/client/theme/colored/wizard-talk.png");
 
-    _ui->slideShow->addSlide(wizardNextcloudIconFileName, tr("Keep your data secure and under your control"));
+    _ui->slideShow->addSlide(wizardNextcloudIconFileName, tr("Dnsinh Keep your data secure and under your control"));
     _ui->slideShow->addSlide(wizardFilesIconFileName, tr("Secure collaboration & file exchange"));
     _ui->slideShow->addSlide(wizardGroupwareIconFileName, tr("Easy-to-use web mail, calendaring & contacts"));
     _ui->slideShow->addSlide(wizardTalkIconFileName, tr("Screensharing, online meetings & web conferences"));
